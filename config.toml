@@ -22,8 +22,7 @@ accent_color = "orange"
 background_color = "dark"
 enable_post_view_navigation = true
 default_language = "en"
-favicon = "/me.png"
-favicon_mimetype = "image/png"
+favicon = "/favicon.ico"
 menu_items = [
     {name = "blog", url = "$BASE_URL"},
 #    {name = "projects", url = "$BASE_URL/projects"},
