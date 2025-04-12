@@ -1,5 +1,6 @@
 # The URL the site will be built for
 base_url = "https://jslazak.com"
+title="@j-g00da's webpage"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -21,7 +22,8 @@ accent_color = "orange"
 background_color = "dark"
 enable_post_view_navigation = true
 default_language = "en"
-
+favicon = "/me.png"
+favicon_mimetype = "image/png"
 menu_items = [
     {name = "blog", url = "$BASE_URL"},
 #    {name = "projects", url = "$BASE_URL/projects"},
