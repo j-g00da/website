@@ -2,6 +2,9 @@
 title = "Are We Embedded Yet? #0"
 date = "2025-04-18"
 in_search_index = true
+description="A series meant to document and promote the joint effort of making ratatui truly portable."
+[extra]
+og_image="/are-we-embedded-yet.png"
 +++
 
 <div style="width:100%; text-align:center;">
