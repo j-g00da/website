@@ -74,7 +74,7 @@ If you haven't seen already, [@micielski](https://github.com/micielski) actually
 ---
 
 Something I didn’t know until recently: there _are_ UEFI targets with std support in nightly Rust.
-Even crazier - just a few days ago, I didn’t expect to see **Ratatui running on UEFI** this week! Check out
+Even crazier - just a few days ago, I didn’t expect to see **Ratatui running in UEFI** this week! Check out
 [@reubeno](https://github.com/reubeno)'s new ratatui backend - 
 [`ratatui-uefi` and a companion crate for handling inputs - `terminput-uefi`](https://github.com/reubeno/tui-uefi?tab=readme-ov-file)
 A truly amazing project that opens doors to some fun ideas.
