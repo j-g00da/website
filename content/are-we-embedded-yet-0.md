@@ -13,7 +13,7 @@ og_image="/are-we-embedded-yet.png"
 _**Ratzilla** expanded it to the web._ \
 _But why shall we stop there?_ \
 _**Why shall we stop anywhere?**_
-> <h1 style="justify-content:center;"> --- Are We Embedded Yet? --- </h1>
+> <h1 style="justify-content:center;"> Are We Embedded Yet? </h1>
 > This series is meant to document and promote the joint effort of making ratatui truly portable.
 
 </div>
