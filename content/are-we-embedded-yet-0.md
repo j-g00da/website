@@ -18,6 +18,8 @@ _**Why shall we stop anywhere?**_
 
 </div>
 
+<!-- more -->
+
 ## no_std ratatui
 
 ---
@@ -84,4 +86,4 @@ A truly amazing project that opens doors to some fun ideas.
 
 {{ image(
 src="/other/ratatui-uefi.png",
-alt="mousefood")}}
+alt="ratatui uefi")}}

@@ -15,6 +15,8 @@ _This series is meant to document and promote the joint effort of making ratatui
 
 ## Update: no_std ratatui
 
+<!-- more -->
+
 ---
 
 [`Backend::Error` merged!](https://github.com/ratatui/ratatui/pull/1778)

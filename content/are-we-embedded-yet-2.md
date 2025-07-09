@@ -16,6 +16,8 @@ _This series is meant to document and promote the joint effort of making ratatui
 
 ## Ratatui alpha with no-std support released!
 
+<!-- more -->
+
 ---
 
 I’ve been between jobs lately, so I haven’t had much time to write an update.

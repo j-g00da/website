@@ -21,7 +21,7 @@ highlight_code = true
 logo_text = "@j-g00da's webpage"
 author = "Jagoda Ślązak"
 accent_color = "orange"
-background_color = "dark"
+#background_color = "dark"
 enable_post_view_navigation = true
 default_language = "en"
 favicon = "/favicon.ico"
@@ -30,7 +30,6 @@ menu_items = [
 #    {name = "projects", url = "$BASE_URL/projects"},
     {name = "about me", url = "$BASE_URL/about"},
     {name = "github", url = "https://github.com/j-g00da", newtab = true},
-    {name = "fosstodon", url = "https://fosstodon.org/@j_g00da", newtab = true},
-    {name = "bluesky", url = "https://bsky.app/profile/jgda.bsky.social", newtab = true},
-    {name = "linkedin", url = "https://www.linkedin.com/in/jagoda-ślązak-7a6a90274/", newtab = true},
+    {name = "socials", url = "$BASE_URL/socials"},
+    {name = "art", url = "$BASE_URL/art"},
 ]

@@ -11,6 +11,8 @@ summary=":D"
 [Ratatui](https://github.com/ratatui/ratatui) v0.30 will introduce **block border merging**,
 a feature that previously required manual handling.
 
+<!-- more -->
+
 You can now set the border merge strategy using `Block`’s new method: `merge_borders`
 
 📚 **From the docs:**  
