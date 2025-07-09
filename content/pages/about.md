@@ -93,7 +93,7 @@ I really hope to get back to painting in 2025.
 
 You can view some of my work [here](/art).
 
-{{ image(src="/art/pre2025/IMG_2524.JPG", style="max-height: 700px; max-width: 500px;") }}
+{{ image(src="/art/pre2025/IMG_2524.jpg", style="max-height: 700px; max-width: 500px;") }}
 
 ## Tinkering
 
