@@ -176,7 +176,7 @@ That's how I started working on [Radioforestrion], but with a totally new (or re
 
 
 
-## It can even be "bad<sup>*</sup>" on purpose (embrace silliness)
+## It can even be "bad*" on purpose (embrace silliness)
 
 <sup>*</sup>_not actually bad, when you find out absurdity is great._
 
@@ -315,7 +315,7 @@ The next time you think you are worse than someone, keep this in mind.
 
 
 
-## There's always someone "better<sup>*</sup>" than you (and that's good)
+## There's always someone "better*" than you (and that's good)
 
 <sup>*</sup>_more experienced._
 
