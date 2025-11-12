@@ -1,6 +1,6 @@
 +++
 title = "Always a work in progress"
-date = "2025-11-12"
+date = "2025-11-13"
 in_search_index = true
 description="I think I'll be fine."
 [extra]
