@@ -226,9 +226,3 @@ Life is hard and random, but for the first time - I think I'll be fine.
 
 This will be continued...  
 See ya!
-
-[{{ image(
-src="/always-a-wip/helium.gif",
-alt="Helium atom animated") }}](https://jslazak.com/atom.xml)
-
-_Btw. In case you didn't know - I have RSS/Atom feeds, just click the atom!_

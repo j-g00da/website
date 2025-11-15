@@ -1,7 +1,73 @@
 {% extends "terminimal/templates/index.html" %}
 
 {% block extra_head %}
+    <link rel="stylesheet" href="{{ get_url(path="theme-overrides.css") | safe }}">
     <a rel="me" href="https://fosstodon.org/@j_g00da" style="display: none;">mastodon verification</a>
     <meta name="fediverse:creator" content="@j_g00da@fosstodon.org">
+    <!-- thx orhun -->
     <script defer src="https://umami.orhun.dev/script.js" data-website-id="69da150e-ae18-4d4c-b6e4-cff66dc2badf"></script>
+{% endblock %}
+
+{% block header %}
+<header class="header">
+    <marquee>my god, it's full of cheese!</marquee>
+
+    <div class="header__inner">
+        <div class="header__logo">
+            {%- if config.extra.logo_home_link %}
+                {% set logo_link = config.extra.logo_home_link %}
+            {% else %}
+                {% set logo_link = config.base_url %}
+            {% endif -%}
+            <a href="{{ logo_link | safe }}" style="text-decoration: none;">
+                <div class="logo">
+                    <img src="{{ get_url(path="me_v2.png") | safe }}" width="42px" alt="me, tired, on a yellow background"/>
+                    {% block logo_content %}
+                        {%- if config.extra.logo_text %}
+                            {{ config.extra.logo_text }}
+                        {% else %}
+                            Terminimal theme
+                        {% endif -%}
+                    {% endblock logo_content %}
+                </div>
+            </a>
+        </div>
+    </div>
+
+    {% block header_menu %}
+    {{ menu_macros::menu(config=config, current_path=current_path) }}
+    {% endblock header_menu %}
+
+    <img src="{{ get_url(path="maineframe_bg.gif") | safe }}" class="cheese-tint" alt="a pixelart of a reel-to-reel tape machine, laughing cat and 'CAT9000' over it"/>
+
+</header>
+{% endblock header %}
+
+{% block footer %}
+
+<footer class="footer">
+    Btw. In case you didn't know - I have RSS/Atom feeds, just click the atom!
+
+    <a href="https://jslazak.com/atom.xml">
+        <img src="{{ get_url(path="helium.gif") | safe }}" alt="Helium atom pixelart, animated" class="center"/>
+    </a>
+
+    <div class="footer__inner">
+        <div class="copyright">
+            <span>
+                ©2025 Jagoda Ślązak
+                <br>:: Theme: <a href="https://github.com/pawroman/zola-theme-terminimal/">Terminimal</a> by pawroman
+                <br>:: Font: <a href="https://github.com/the-moonwitch/Cozette">Cozette</a> by the-moonwitch
+            </span>
+        </div>
+    </div>
+
+    <br>
+
+    this website is mice-friendly
+
+    <a href="https://github.com/j-g00da/mousefood">
+        <img src="{{ get_url(path="projects/mousefood/88x31.gif") | safe }}" width="88px" alt="pixelart, piece of cheese on the right, a text 'mousefood' typed and deleted in a loop on the left"/>
+    </a>
+</footer>
 {% endblock %}

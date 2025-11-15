@@ -20,8 +20,6 @@ highlight_code = true
 [extra]
 logo_text = "@j-g00da's webpage"
 author = "Jagoda Ślązak"
-accent_color = "orange"
-#background_color = "dark"
 enable_post_view_navigation = true
 default_language = "en"
 favicon = "/favicon.ico"
@@ -29,6 +27,7 @@ menu_items = [
     {name = "blog", url = "$BASE_URL"},
 #    {name = "projects", url = "$BASE_URL/projects"},
     {name = "about me", url = "$BASE_URL/about"},
+    {name = "gitlab (archlinux)", url = "https://gitlab.archlinux.org/j-g00da", newtab = true},
     {name = "github", url = "https://github.com/j-g00da", newtab = true},
     {name = "socials", url = "$BASE_URL/socials"},
     {name = "art", url = "$BASE_URL/art"},

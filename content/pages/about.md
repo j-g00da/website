@@ -7,7 +7,7 @@ in_search_index = true
 _This sub-page is always a work in progress and may be updated at any time._
 
 {{ image(
-src="/me.png",
+src="/me_v2.png",
 alt="j-g00da",
 position="left",
 style="max-width: 75px;")
@@ -21,27 +21,9 @@ I’m an open source enthusiast and Rust advocate, a full-stack dev, a self-proc
 <!-- more -->
 
 ### I’m currently working on:
-- **_Finding a job_** \
-The last contract ended pretty abruptly when a potential client didn’t get funding and suddenly there was no work for me
-to do anymore. _(So I’m open for work and can start immediately, 
-contact me if you have some interesting project I can help with!)_
-- **Ratatui v0.30 release** \
-This will be the biggest release since forking tui-rs and I’m really excited about it! 
-I took part in making Ratatui no-std compatible which I hope will result in it being useful in many new places.
-- **Mousefood v0.3 release** \
-This release most importantly will make use of no-std compatibility of Ratatui 0.30, which will expand its usages 
-beyond esp32 _(It already runs on PSP!)_
-- **This blog** \
-Hi! :D
 
-### Ideas in early stages, that I want to tackle this year:
-- **Rust VGA driver for esp32** \
-I have this crazy idea to give a talk which is presented directly from a microcontroller, 
-this is essential to make it possible.
-- **Kloshel programming language** \
-A weird LISP dialect and interpreter written in Rust. I haven’t open-sourced it yet, mostly an experiment.
-- **Get back into self-hosting and painting** \
-This obviously first requires finding a job.
+> Heyyy so I removed this section as there's no way to keep it up to date :D
+
 
 ## What is this blog?
 
@@ -70,6 +52,8 @@ alt="mousefood")}}
 ### Maintainer:
 - [Ratatui](https://github.com/ratatui/ratatui) - the most popular Rust crate for terminal UIs
 - [Mousefood](https://github.com/j-g00da/mousefood) - an embedded-graphics backend for Ratatui
+- [serde_more](https://github.com/j-g00da/serde-more) - arbitrary computed fields for Serde serializable structs
+- [embedded-graphics-unicodefonts](https://github.com/j-g00da/embedded-graphics-unicodefonts) - fonts for embedded-graphics that support a wide range of Unicode characters
 - [rust-community.pl](https://rust-community.pl)
 - [pl.python.org](https://pl.python.org)
 
@@ -78,6 +62,7 @@ alt="mousefood")}}
 - [Rustmeet](https://rustmeet.eu)
 
 ### Speaker:
+- [Jesień Linuksowa 2025](https://jesien.org) "Ratatui v0.30 Bryndza - Terminal UI Wszędzie"
 - [Rust Poland x Poznań](https://www.meetup.com/rust-poland-meetup/events/308480357) "Ratatui - Are We Embedded Yet?"
 - [Rust Gdańsk #9](https://www.meetup.com/rust-gdansk/events/308349712) "Ratatui - Are We Embedded Yet?"
 - [P.I.W.O. 2025](https://piwo.sh) "Ratatui Na Sterydach" (lightning talk)
