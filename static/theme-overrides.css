@@ -114,6 +114,24 @@ img {
     image-rendering: pixelated!important;
 }
 
+#muzig-toggle {
+    margin: 0;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 0;
+    animation: blink 1s infinite;
+    animation-timing-function: step-start;
+}
+
+#muzig-marquee {
+    flex-grow: 1;
+}
+
+.muzig-player {
+    display: flex;
+    border-bottom: .1rem solid var(--accent);
+}
+
 
 /*.cheese-tint {*/
 /*    filter: sepia(0.2) hue-rotate(12deg) saturate(2);*/

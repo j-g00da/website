@@ -1,7 +1,7 @@
 {% extends "terminimal/templates/index.html" %}
 
 {% block extra_head %}
-    <link rel="stylesheet" href="{{ get_url(path="theme-overrides.css#v2") | safe }}">
+    <link rel="stylesheet" href="{{ get_url(path="theme-overrides.css#v3") | safe }}">
     <a rel="me" href="https://fosstodon.org/@j_g00da" style="display: none;">mastodon verification</a>
     <meta name="fediverse:creator" content="@j_g00da@fosstodon.org">
     <!-- thx orhun -->
@@ -39,6 +39,41 @@
     {% endblock header_menu %}
 
     <img src="{{ get_url(path="maineframe_bg.gif") | safe }}" class="cheese-tint" alt="a pixelart of a reel-to-reel tape machine, laughing cat and 'CAT9000' over it"/>
+
+    <div class="muzig-player">
+        <button id="muzig-toggle" aria-label="Play some music!!!" style="font-size: 1.5rem;">▶</button>
+        <marquee id="muzig-marquee" direction="right"></marquee>
+    </div>
+    <audio id="muzig" loop preload="none">
+        <source src="{{ get_url(path="audio/is_this_even_playing_by_pastagang.mp3") | safe }}" type="audio/mpeg">
+    </audio>
+
+    <script>
+        const btn = document.getElementById('muzig-toggle');
+        const audio = document.getElementById('muzig');
+        const marquee = document.getElementById('muzig-marquee');
+        btn.addEventListener('click', async () => {
+            try {
+                if (audio.paused) {
+                    if (audio.currentTime === 0) {
+                        // go right into the cool part
+                        audio.currentTime = 500;
+                    }
+                    await audio.play();
+                    btn.textContent = '⏸';
+                    marquee.textContent = '♪ is this even playing? by pastagang ♪';
+                    btn.setAttribute('aria-label', 'Pause music :(');
+                } else {
+                    audio.pause();
+                    btn.textContent = '▶';
+                    marquee.textContent = '';
+                    btn.setAttribute('aria-label', 'Play music!!');
+                }
+            } catch (e) {
+                console.error('Opsie:', e);
+            }
+        });
+    </script>
 
 </header>
 {% endblock header %}
