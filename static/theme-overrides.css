@@ -110,6 +110,10 @@ blockquote {
     }
 }
 
+img {
+    image-rendering: pixelated!important;
+}
+
 
 /*.cheese-tint {*/
 /*    filter: sepia(0.2) hue-rotate(12deg) saturate(2);*/
