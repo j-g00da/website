@@ -58,11 +58,11 @@ there every other Thursday.
 <div style="display: flex;">
 
 <a href="https://jslazak.com">
-    <img src="88x31.gif" width="88px" alt="pixelart, yellow background, j-g00da on the left, j-g00da's webpage text in the center, a spool of magnetic tape rotating on the right"/>
+    <img src="/88x31.gif" width="88px" alt="pixelart, yellow background, j-g00da on the left, j-g00da's webpage text in the center, a spool of magnetic tape rotating on the right"/>
 </a>
 
 <a href="https://github.com/j-g00da/mousefood">
-    <img src="projects/mousefood/88x31.gif" width="88px" alt="pixelart, piece of cheese on the right, a text 'mousefood' typed and deleted in a loop on the left"/>
+    <img src="/projects/mousefood/88x31.gif" width="88px" alt="pixelart, piece of cheese on the right, a text 'mousefood' typed and deleted in a loop on the left"/>
 </a>
 
 </div>
