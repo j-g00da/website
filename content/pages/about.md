@@ -15,80 +15,58 @@ style="max-width: 75px;")
 
 ## Hi!
 
-I’m Jagoda and this is my little blog, created for my personal therapy and your entertainment.
-I’m an open source enthusiast and Rust advocate, a full-stack dev, a self-proclaimed artist, and a full-time tinkerer.
+I'm Jagoda. I click keyboard.
+I have [approximate knowledge about many things](https://www.youtube.com/watch?v=ZDS-iSueBQ4).
+I'm hopefully [doing stuff](/do-stuff).
 
-<!-- more -->
+`#[non_exhaustive]`  
+I'm into open source tooling, terminal/text UI, algorithmic music, analog synthesis, pixelart, utility poles,
+LEGO, embedded systems, sociopsychological science fiction, painting, stop-motion animation, paralysis by analysis, 
+shoegaze, reverse engineering, 3d printing, superdeterminism, eating cheese, space exploration, DIY UAVs etc.
 
-### I’m currently working on:
+<marquee>I'm also looking for someone that will infodump me about Zig.</marquee>
 
-> Heyyy so I removed this section as there's no way to keep it up to date :D
+I spent most of my life tinkering on my own (for many reasons).
+Since 2025 I've started sharing my work and got very involved in foss/hacking communities.
 
+## What's going on?
 
-## What is this blog?
+Recent things:
+- I made [Ratatui](https://ratatui.rs) run on [embedded devices](https://github.com/j-g00da/mousefood)
+and [inside itself](https://github.com/j-g00da/ratrioshka), 
+and lead the process of introducing [`no_std`](https://github.com/ratatui/ratatui/issues/1750) compatibility.
+I gave talks about it at [P.I.W.O. 2025](https://piwo.sh), [Rust Gdańsk #9](https://www.meetup.com/rust-gdansk/events/308349712), 
+[Rust Poland x Poznań](https://www.meetup.com/rust-poland-meetup/events/308480357) and [Jesień Linuksowa 2025](https://jesien.org).
+- I'm oxidizing package management on Arch Linux as part of the [ALPM](https://alpm.archlinux.page) team, mostly working on
+python bindings ([python-alpm](https://pypi.org/project/python-alpm/)) and file parsers.
+Oh and check out my browser-crashing [AUR mirror](https://github.com/j-g00da/aur-git-looking-glass).
+- I also made [serde_more](https://github.com/j-g00da/serde-more) and 
+[embedded-graphics-unicodefonts](https://github.com/j-g00da/embedded-graphics-unicodefonts)
 
-As my 2025 resolution, I decided to start living instead of waiting for perfect conditions. This blog is a partial, 
-public, and sometimes non-obvious diary of how I’m doing, where I post relevant thoughts and things I’m personally 
-proud of—things that may be of interest to you, the reader. The main topics should be open source and Rust, 
-but I won’t necessarily limit myself to those and may include anything I feel like yapping about.
-
-I’ve loved the idea of open source for years, but since software development is my job, it was insanely hard for me to 
-justify "working for free." FOSDEM 2025 was a turning point for me: I joined because I wanted to be part of this 
-amazing community and stayed for the joy of being able to work on anything that interests me. In April 2025, 
-I created Mousefood and became a maintainer of Ratatui in June. 
-
-To both share what interests me and to fight my anxiety, I decided to start giving talks. I gave a lightning talk, 
-"Ratatui na sterydach," at PIWO 2025 and a full-length talk, "Ratatui - Are We Embedded Yet?" at Rust Gdańsk #9 and 
-Rust Poland x Poznań meetups. I hope to do more talks in the future, 
-and presenting at FOSDEM is one of my personal goals.
-
-## Open Source and Community
-
-{{ image(
-src="https://raw.githubusercontent.com/j-g00da/mousefood/refs/heads/main/assets/logo/mousefood_cheese.svg?raw=true",
-style="max-width: 100px;",
-alt="mousefood")}}
-
-### Maintainer:
-- [Ratatui](https://github.com/ratatui/ratatui) - the most popular Rust crate for terminal UIs
-- [Mousefood](https://github.com/j-g00da/mousefood) - an embedded-graphics backend for Ratatui
-- [serde_more](https://github.com/j-g00da/serde-more) - arbitrary computed fields for Serde serializable structs
-- [embedded-graphics-unicodefonts](https://github.com/j-g00da/embedded-graphics-unicodefonts) - fonts for embedded-graphics that support a wide range of Unicode characters
-- [rust-community.pl](https://rust-community.pl)
-- [pl.python.org](https://pl.python.org)
-
-### Event organizer:
-- [PyConPL](https://pl.pycon.org)
-- [Rustmeet](https://rustmeet.eu)
-
-### Speaker:
-- [Jesień Linuksowa 2025](https://jesien.org) "Ratatui v0.30 Bryndza - Terminal UI Wszędzie"
-- [Rust Poland x Poznań](https://www.meetup.com/rust-poland-meetup/events/308480357) "Ratatui - Are We Embedded Yet?"
-- [Rust Gdańsk #9](https://www.meetup.com/rust-gdansk/events/308349712) "Ratatui - Are We Embedded Yet?"
-- [P.I.W.O. 2025](https://piwo.sh) "Ratatui Na Sterydach" (lightning talk)
-
-## Art
-
-During the pandemic, I decided to start doing art as a hobby and mostly practiced painting still lives. 
-I then studied graphic design (while still studying computer science and working as a web dev, which was rough...). 
-I dropped out, as I mostly enjoyed painting but chose graphic design because it "made more sense" - a hard lesson. 
-It was also a tough time in my life and I had to take care of other things...
-
-I really hope to get back to painting in 2025.
-
-You can view some of my work [here](/art).
-
-{{ image(src="/art/pre2025/IMG_2524.jpg", style="max-height: 700px; max-width: 500px;") }}
-
-## Tinkering
-
-While at university, I created many custom Eurorack modules and cases. I hope to finally make a post about them.
+Back in 2019~2022 I prototyped a _bunch_ of custom eurorack modules, some of these are modifications of
+existing designs, some are completely original.
+I've moved my system (that is built almost completely with these custom modules) to [hsldz](https://lodz.hackerspace.pl),
+you can come visit and play with it if you want! We are also [jamming](https://fosstodon.org/@j_g00da/115627837303523621)
+there every other Thursday.
 
 <video style="width: 100%; max-height: 80vh; margin-left: auto; margin-right: auto;" controls>
-  <source src="/projects/synth/synth.mp4" type="video/mp4">
+    <source src="/projects/synth/synth.mp4" type="video/mp4">
 </video>
 
-## Music
+## 88x31
 
-Since I built a custom modular synth... I also made some music. 
-I don’t really publish much though (as I don’t really finish much either).
+<div style="display: flex;">
+
+<a href="https://jslazak.com">
+    <img src="88x31.gif" width="88px" alt="pixelart, yellow background, j-g00da on the left, j-g00da's webpage text in the center, a spool of magnetic tape rotating on the right"/>
+</a>
+
+<a href="https://github.com/j-g00da/mousefood">
+    <img src="projects/mousefood/88x31.gif" width="88px" alt="pixelart, piece of cheese on the right, a text 'mousefood' typed and deleted in a loop on the left"/>
+</a>
+
+</div>
+
+```rust
+//! I'll be putting cool ppl here soon, be gentle, I said chill!!!
+```
