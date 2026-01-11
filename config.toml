@@ -27,8 +27,8 @@ menu_items = [
     {name = "blog", url = "$BASE_URL"},
 #    {name = "projects", url = "$BASE_URL/projects"},
     {name = "about me", url = "$BASE_URL/about"},
+    {name = "contact", url = "$BASE_URL/contact"},
     {name = "git", url = "$BASE_URL/git"},
-    {name = "socials", url = "$BASE_URL/socials"},
     {name = "music", url = "$BASE_URL/music"},
     {name = "art", url = "$BASE_URL/art"},
 ]
