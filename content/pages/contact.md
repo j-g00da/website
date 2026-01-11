@@ -30,3 +30,5 @@ IM:
 > Other messaging apps are reserved to friends I cannot get to switch to something different.
 > 
 > If you are not on fediverse or matrix, just email me.
+> 
+> If privacy is required, use [age (or pgp)](/keys)
