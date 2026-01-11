@@ -30,5 +30,6 @@ menu_items = [
     {name = "gitlab (archlinux)", url = "https://gitlab.archlinux.org/j-g00da", newtab = true},
     {name = "github", url = "https://github.com/j-g00da", newtab = true},
     {name = "socials", url = "$BASE_URL/socials"},
+    {name = "music", url = "$BASE_URL/music"},
     {name = "art", url = "$BASE_URL/art"},
 ]
