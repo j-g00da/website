@@ -6,6 +6,8 @@ in_search_index = true
 
 ## 2026:
 
+{{ image(src="/art/2026/cassette.jpg") }}
+\
 {{ image(src="/art/2026/pole-seoul.jpg") }}
 \
 {{ image(src="/art/2026/flying-gsm.jpg") }}
@@ -28,7 +30,7 @@ in_search_index = true
 \
 {{ image(src="/art/2026/zalma.jpg") }}
 
-## 2022-2023:
+## 2022:
 
 {{ image(src="/art/pre2025/two_c.jpg") }}
 \
@@ -40,6 +42,8 @@ in_search_index = true
 \
 {{ image(src="/art/pre2025/lightposts.jpg") }}
 \
+{{ image(src="/art/pre2025/pkp.png") }}
+\
 {{ image(src="/art/pre2025/quarters.jpg") }}
 \
 {{ image(src="/art/pre2025/illusion.jpg") }}
@@ -50,7 +54,7 @@ in_search_index = true
 \
 {{ image(src="/art/pre2025/IMG_2522.jpg") }}
 
-## Before 2022:
+## 2020/2021:
 
 {{ image(src="/art/pre2025/IMG_7794.jpg") }}
 \
@@ -65,3 +69,23 @@ in_search_index = true
 {{ image(src="/art/pre2025/pictograms.png") }}
 \
 {{ image(src="/art/pre2025/rover_panels.png") }}
+
+## 2018:
+
+{{ image(src="/art/pre2025/fleet.jpg") }}
+
+## 2017:
+
+{{ image(src="/art/pre2025/space_station.jpg") }}
+\
+{{ image(src="/art/pre2025/brain.jpg") }}
+
+## 2016:
+
+{{ image(src="/art/pre2025/worldcraft.jpg") }}
+\
+{{ image(src="/art/pre2025/telescope.jpg") }}
+\
+{{ image(src="/art/pre2025/ring.jpg") }}
+\
+{{ image(src="/art/pre2025/atst.jpg") }}
