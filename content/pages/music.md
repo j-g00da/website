@@ -4,7 +4,13 @@ path = "music"
 in_search_index = true
 +++
 
-Since 2019 I've been playing with sound in my free time; mostly interested in subtractive synthesis and algorithmic music.
+Since 2019 I've been playing with "sound" in my free time; mostly interested in subtractive synthesis and algorithmic music.
+
+## Fara Wayland
+
+My solo project.
+
+- [Bandcamp](https://farawayland.bandcamp.com)
 
 ## Łódź Hackerspace Jams
 
@@ -23,11 +29,4 @@ FYI: congress is a great time&place to jam with strangers.
 
 Pastagang is nuts!
 
-- [Live recordings](https://kamiokan.de/audio/pastagang/)
-
-## JUSTASIF
-
-Made by me alone, most stuff never completed (one must imagine Sisyphus happy).
-Everything is under CC-BY-SA-4.0.
-
-- [Tracks](https://kamiokan.de/audio/justasif/)
+- [My live recordings](https://kamiokan.de/audio/pastagang/)
